@@ -1,4 +1,4 @@
-package com.casa.controller;
+package com.example.pruebaDocker.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -8,7 +8,6 @@ public class HelloController {
 	
 	@GetMapping("/hello")
 	public String sayHello() {
-		return "oscar gay";
+		return "Oscar gay";
 	}
-
 }

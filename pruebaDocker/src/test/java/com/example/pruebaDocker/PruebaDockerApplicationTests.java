@@ -1,10 +1,10 @@
-package com.casa;
+package com.example.pruebaDocker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Demo1ApplicationTests {
+class PruebaDockerApplicationTests {
 
 	@Test
 	void contextLoads() {
